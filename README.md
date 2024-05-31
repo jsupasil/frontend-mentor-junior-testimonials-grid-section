@@ -1,6 +1,6 @@
 # Frontend Mentor - Testimonials grid section solution
 
-This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -23,8 +23,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/jsupasil/frontend-mentor-newbie-four-card-feature-section)
-- Live Site URL: [Vercel](https://frontend-mentor-newbie-four-card-feature-section.vercel.app/)
+- Solution URL: [GitHub](https://github.com/jsupasil/frontend-mentor-newbie-testimonials-grid-section)
+- Live Site URL: [Vercel](https://frontend-mentor-newbie-testimonials-grid-section.vercel.app/)
 
 ## My process
 
@@ -50,6 +50,7 @@ There is nothing need to improve yet.
 
 - [Flex - TailwindCSS](https://tailwindcss.com/docs/flex) - This help me design flex items.
 - [Responsive Design - TailwindCSS](https://tailwindcss.com/docs/responsive-design) - This help me design responsive vary by width.
+- [Box Shadow - TailwindCSS](https://tailwindcss.com/docs/box-shadow) - This method is the crucial part for seperate white border from background color
 
 ## Author
 

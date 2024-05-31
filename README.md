@@ -36,6 +36,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - CSS custom properties
 - Flex item
 - Responsive Design
+- Position and Z-index
 - [TailwindCSS](https://tailwindcss.com/) - Tailwind CSS framework
 
 ### What I learned
@@ -51,6 +52,7 @@ There is nothing need to improve yet.
 - [Flex - TailwindCSS](https://tailwindcss.com/docs/flex) - This help me design flex items.
 - [Responsive Design - TailwindCSS](https://tailwindcss.com/docs/responsive-design) - This help me design responsive vary by width.
 - [Box Shadow - TailwindCSS](https://tailwindcss.com/docs/box-shadow) - This method is the crucial part for seperate white border from background color
+- [CSS Layout - The Z-index property](https://www.w3schools.com/css/css_z-index.asp) - This method also play crucial role as part of background decoration which help me to decide the order of layout between elements.
 
 ## Author
 

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Testimonials Grid Section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              moderateViolet: "hsl(263, 55%, 52%)",
+              softViolet: "hsl(264, 82%, 70%)",
+              veryDarkGrayishBlue: "hsl(217, 19%, 35%)",
+              veryDarkBlackishBlue: "hsl(219, 29%, 14%)",
+              white: "hsl(0, 0%, 100%)",
+              lightGray: "hsl(0, 0%, 81%)",
+              lightGrayishBlue: "hsl(210, 46%, 95%)",
+            },
+            fontFamily: {
+              barlowSemiCondensed: ["Barlow Semi Condensed"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      class="font-barlowSemiCondensed text-[13px] font-medium py-[71px] sm:flex sm:gap-[30px] flex flex-col sm:flex-row justify-center items-center sm:h-screen bg-lightGrayishBlue"
+    >
+      <div class="flex flex-col gap-[24px]">
+        <div class="flex flex-col gap-[24px] sm:flex-row sm:gap-[30px] mx-auto">
+          <article
+            class="text-white px-[32px] py-[26px] rounded-lg w-[327px] sm:w-[540px] sm:h-[282px] bg-moderateViolet shadow-[40px_60px_50px_-47px_rgba(72,85,106,0.25)]"
+          >
+            <div class="flex gap-[17px]">
+              <img
+                src="./images/image-daniel.jpg"
+                alt="Daniel pic"
+                class="w-[28px] h-[28px] rounded-full border-[2px] border-softViolet"
+              />
+              <div>
+                <h1 class="leading-[13px]">Daniel Clifford</h1>
+                <h2 class="text-[11px] leading-[11px] opacity-50 mt-[4px]">
+                  Verified Graduate
+                </h2>
+              </div>
+            </div>
+            <h3 class="text-[20px] font-semibold leading-[24px] mt-[18px]">
+              I received a job offer mid-course, and the subjects I learned were
+              current, if not more so, in the company I joined. I honestly feel
+              I got every penny’s worth.
+            </h3>
+            <p class="leading-[18px] opacity-70 mt-[40px] sm:mt-[16px]">
+              “ I was an EMT for many years before I joined the bootcamp. I’ve
+              been looking to make a transition and have heard some people who
+              had an amazing experience here. I signed up for the free intro
+              course and found it incredibly fun! I enrolled shortly thereafter.
+              The next 12 weeks was the best - and most grueling - time of my
+              life. Since completing the course, I’ve successfully switched
+              careers, working as a Software Engineer at a VR startup. ”
+            </p>
+          </article>
+          <article
+            class="text-white px-[32px] py-[26px] rounded-lg w-[327px] sm:w-[255px] sm:h-[282px] bg-veryDarkGrayishBlue shadow-[40px_60px_50px_-47px_rgba(72,85,106,0.25)]"
+          >
+            <div class="flex gap-[17px]">
+              <img
+                src="./images/image-jonathan.jpg"
+                alt="Jonathan pic"
+                class="w-[28px] h-[28px] rounded-full"
+              />
+              <div>
+                <h1 class="leading-[13px]">Jonathan Walters</h1>
+                <h2 class="text-[11px] leading-[11px] opacity-50 mt-[4px]">
+                  Verified Graduate
+                </h2>
+              </div>
+            </div>
+            <h3 class="text-[20px] font-semibold leading-[24px] mt-[18px]">
+              The team was very supportive and kept me motivated
+            </h3>
+            <p class="leading-[18px] opacity-70 mt-[40px] sm:mt-[16px]">
+              “ I started as a total newbie with virtually no coding skills. I
+              now work as a mobile engineer for a big company. This was one of
+              the best investments I’ve made in myself. ”
+            </p>
+          </article>
+        </div>
+        <div class="flex flex-col gap-[24px] sm:flex-row sm:gap-[30px] mx-auto">
+          <article
+            class="text-veryDarkGrayishBlue px-[32px] py-[26px] rounded-lg w-[327px] sm:w-[255px] sm:h-[266px] bg-white shadow-[40px_60px_50px_-47px_rgba(72,85,106,0.25)]"
+          >
+            <div class="flex gap-[17px]">
+              <img
+                src="./images/image-jeanette.jpg"
+                alt="Jeanette pic"
+                class="w-[28px] h-[28px] rounded-full"
+              />
+              <div>
+                <h1 class="leading-[13px]">Jeanette Harmon</h1>
+                <h2 class="text-[11px] leading-[11px] opacity-50 mt-[4px]">
+                  Verified Graduate
+                </h2>
+              </div>
+            </div>
+            <h3 class="text-[20px] font-semibold leading-[24px] mt-[18px]">
+              An overall wonderful and rewarding experience
+            </h3>
+            <p class="leading-[18px] opacity-70 mt-[40px] sm:mt-[16px]">
+              “ Thank you for the wonderful experience! I now have a job I
+              really enjoy, and make a good living while doing something I love.
+              ”
+            </p>
+          </article>
+          <article
+            class="text-white px-[32px] py-[26px] rounded-lg w-[327px] sm:w-[540px] sm:h-[266px] bg-veryDarkBlackishBlue shadow-[40px_60px_50px_-47px_rgba(72,85,106,0.25)]"
+          >
+            <div class="flex gap-[17px]">
+              <img
+                src="./images/image-patrick.jpg"
+                alt="Patrick pic"
+                class="w-[28px] h-[28px] rounded-full border-[2px] border-moderateViolet"
+              />
+              <div>
+                <h1 class="leading-[13px]">Patrick Abrams</h1>
+                <h2 class="text-[11px] leading-[11px] opacity-50 mt-[4px]">
+                  Verified Graduate
+                </h2>
+              </div>
+            </div>
+            <h3 class="text-[20px] font-semibold leading-[24px] mt-[18px]">
+              Awesome teaching support from TAs who did the bootcamp themselves.
+              Getting guidance from them and learning from their experiences was
+              easy.
+            </h3>
+            <p class="leading-[18px] opacity-70 mt-[40px] sm:mt-[16px]">
+              “ The staff seem genuinely concerned about my progress which I
+              find really refreshing. The program gave me the confidence
+              necessary to be able to go out in the world and present myself as
+              a capable junior developer. The standard is above the rest. You
+              will get the personal attention you need from an incredible
+              community of smart and amazing people. ”
+            </p>
+          </article>
+        </div>
+      </div>
+      <article
+        class="text-veryDarkGrayishBlue px-[32px] py-[26px] rounded-lg w-[327px] sm:w-[255px] sm:h-[572px] bg-white max-sm:mt-[24px] max-sm:mx-auto shadow-[40px_60px_50px_-47px_rgba(72,85,106,0.25)]"
+      >
+        <div class="flex gap-[17px]">
+          <img
+            src="./images/image-kira.jpg"
+            alt="Patrick pic"
+            class="w-[28px] h-[28px] rounded-full"
+          />
+          <div>
+            <h1 class="leading-[13px]">Kira Whittle</h1>
+            <h2 class="text-[11px] leading-[11px] opacity-50 mt-[4px]">
+              Verified Graduate
+            </h2>
+          </div>
+        </div>
+        <h3 class="text-[20px] font-semibold leading-[24px] mt-[18px]">
+          Such a life-changing experience. Highly recommended!
+        </h3>
+        <p class="leading-[18px] opacity-70 mt-[40px] sm:mt-[16px]">
+          “ Before joining the bootcamp, I’ve never written a line of code. I
+          needed some structure from professionals who can help me learn
+          programming step by step. I was encouraged to enroll by a former
+          student of theirs who can only say wonderful things about the program.
+          The entire curriculum and staff did not disappoint. They were very
+          hands-on and I never had to wait long for assistance. The agile team
+          project, in particular, was outstanding. It took my learning to the
+          next level in a way that no tutorial could ever have. In fact, I’ve
+          often referred to it during interviews as an example of my developent
+          experience. It certainly helped me land a job as a full-stack
+          developer after receiving multiple offers. 100% recommend! ”
+        </p>
+      </article>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" target="_blank">Jirayu Supasil</a>.
+    </footer>
+  </body>
+</html>

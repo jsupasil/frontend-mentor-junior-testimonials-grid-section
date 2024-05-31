@@ -23,8 +23,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/jsupasil/frontend-mentor-newbie-testimonials-grid-section)
-- Live Site URL: [Vercel](https://frontend-mentor-newbie-testimonials-grid-section.vercel.app/)
+- Solution URL: [GitHub](https://github.com/jsupasil/frontend-mentor-junior-testimonials-grid-section)
+- Live Site URL: [Vercel](https://frontend-mentor-junior-testimonials-grid-section.vercel.app/)
 
 ## My process
 
